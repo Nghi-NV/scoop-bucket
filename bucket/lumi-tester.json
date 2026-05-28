@@ -1,0 +1,39 @@
+{
+  "version": "0.1.5",
+  "description": "Multi-platform automation testing CLI",
+  "homepage": "https://github.com/Nghi-NV/nl-tester",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Nghi-NV/nl-tester/releases/download/v0.1.5/lumi-tester-x86_64-pc-windows-msvc.exe",
+      "hash": "e738b1e805e6a3e8481e2cf5fa860f58eb202ae131fe315c1fab33ba1451529c",
+      "bin": [
+        [
+          "lumi-tester-x86_64-pc-windows-msvc.exe",
+          "lumi-tester.exe"
+        ]
+      ]
+    },
+    "arm64": {
+      "url": "https://github.com/Nghi-NV/nl-tester/releases/download/v0.1.5/lumi-tester-aarch64-pc-windows-msvc.exe",
+      "hash": "1bc4b6c02fc1758200e6984f11af5fba5010b0373539ede7777174d0a6d95bc5",
+      "bin": [
+        [
+          "lumi-tester-aarch64-pc-windows-msvc.exe",
+          "lumi-tester.exe"
+        ]
+      ]
+    }
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/Nghi-NV/nl-tester/releases/download/v$version/lumi-tester-x86_64-pc-windows-msvc.exe"
+      },
+      "arm64": {
+        "url": "https://github.com/Nghi-NV/nl-tester/releases/download/v$version/lumi-tester-aarch64-pc-windows-msvc.exe"
+      }
+    }
+  }
+}
