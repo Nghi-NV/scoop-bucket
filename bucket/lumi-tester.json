@@ -1,13 +1,13 @@
 {
-  "version": "0.1.44",
+  "version": "0.1.45",
   "description": "Multi-platform automation testing CLI",
   "homepage": "https://github.com/Nghi-NV/nl-tester",
   "license": "MIT",
   "notes": "Run 'lumi-tester system install --all' for local drivers, then 'lumi-tester ai install' to install the Codex skill and MCP server.",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Nghi-NV/nl-tester/releases/download/v0.1.44/lumi-tester-x86_64-pc-windows-msvc.exe",
-      "hash": "8df2c74fd90875ec0c117c8d8d79175130f9687dd891aa278e3480e89c2a0c6a",
+      "url": "https://github.com/Nghi-NV/nl-tester/releases/download/v0.1.45/lumi-tester-x86_64-pc-windows-msvc.exe",
+      "hash": "1398c31d462c6605605aeb3d2c8672965077abb40d59aacc4faeb7c77ff17e36",
       "bin": [
         [
           "lumi-tester-x86_64-pc-windows-msvc.exe",
@@ -16,8 +16,8 @@
       ]
     },
     "arm64": {
-      "url": "https://github.com/Nghi-NV/nl-tester/releases/download/v0.1.44/lumi-tester-aarch64-pc-windows-msvc.exe",
-      "hash": "2dab582210068e73b0d0bc77bfbf7b8eda95b45adb127bca3b2f06cc9bb8ae26",
+      "url": "https://github.com/Nghi-NV/nl-tester/releases/download/v0.1.45/lumi-tester-aarch64-pc-windows-msvc.exe",
+      "hash": "9bb08ec9a212cba589b1fbd2f49a00b0c6cd5c0a36e6e7b10d9b8894fcefc19f",
       "bin": [
         [
           "lumi-tester-aarch64-pc-windows-msvc.exe",
